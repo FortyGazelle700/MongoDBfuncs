@@ -1,0 +1,29 @@
+{
+  "name": "@fortygazelle700/mongofunctions",
+  "version": "1.0.0",
+  "description": "Removes space from the given string",
+  "keywords": ["npm", "space", "package"],
+  "homepage": "https://github.com/PranamBhat/npm-package",
+  "bugs": {
+      "url": "https://github.com/PranamBhat/npm-package/issues",
+      "email": "pranam707@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+      "test": "mocha"
+  },
+  "publishConfig": {
+      "access": "public"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/PranamBhat/npm-package"
+  },
+  "author": "Pranam Bhat",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+      "node": ">=6.0.0"
+  },
+  "engineStrict": true
+}
