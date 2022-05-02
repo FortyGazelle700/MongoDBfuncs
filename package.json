@@ -1,29 +1,28 @@
 {
   "name": "@fortygazelle700/mongofunctions",
   "version": "1.0.0",
-  "description": "Removes space from the given string",
-  "keywords": ["npm", "space", "package"],
-  "homepage": "https://github.com/PranamBhat/npm-package",
+  "description": "Easier to handle functions for MongoDB to add, edit, and remove databases, collections, and documents.",
+  "keywords": ["mongo", "functions"],
+  "homepage": "https://github.com/FortyGazelle700/MongoDBfuncs/",
   "bugs": {
-      "url": "https://github.com/PranamBhat/npm-package/issues",
-      "email": "pranam707@gmail.com"
+    "url": "https://github.com/FortyGazelle700/MongoDBfuncs/issues"
   },
   "main": "index.js",
-  "scripts": {
-      "test": "mocha"
-  },
   "publishConfig": {
-      "access": "public"
+    "access": "public"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/PranamBhat/npm-package"
+    "type": "git",
+    "url": "https://github.com/FortyGazelle700/MongoDBfuncs/"
   },
-  "author": "Pranam Bhat",
-  "license": "MIT",
+  "author": "Drake S", 
+  "license": "Apache-2.0",
   "private": false,
   "engines": {
-      "node": ">=6.0.0"
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "mongodb": ">=4.0.0"
   },
   "engineStrict": true
 }
